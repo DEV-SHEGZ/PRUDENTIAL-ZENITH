@@ -1,0 +1,51 @@
+.body {
+  position: relative;
+}
+.pru {
+}
+.mag {
+  width: 40px;
+  height: 25px;
+}
+.msg {
+  width: 40px;
+  height: 25px;
+}
+.crd {
+  width: 40px;
+  height: 25px;
+}
+
+.click {
+  background-color: #ececf1;
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 2px 15px 8px 3px;
+  margin-top: 4px;
+}
+
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #6c7a8a;
+}
+
+.indv {
+  background-color: white;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  padding: 1px 10px 8px 15px;
+}
+
+button {
+  border: 2px solid #ececf1;
+  border-radius: 50px;
+  background-color: white;
+  padding: 3px 15px 3px 15px;
+  margin-left: 20px;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
