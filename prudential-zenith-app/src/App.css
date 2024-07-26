@@ -1,3 +1,7 @@
+.txt {
+  font-family: op;
+}
+
 .body {
   position: relative;
 }
@@ -20,8 +24,8 @@
   background-color: #ececf1;
   border-radius: 50px;
   margin-left: 20px;
-  padding: 4px 15px 8px 3px;
-  margin-top: 4px;
+  padding: 5px 15px 5px 2px;
+  margin-top: 1px;
 }
 
 a {
@@ -34,7 +38,7 @@ a {
   background-color: white;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
-  padding: 2px 10px 7px 15px;
+  padding: 6px 10px 7px 17px;
 }
 
 button {
@@ -43,6 +47,7 @@ button {
   background-color: white;
   padding: 3px 20px 3px 20px;
   margin-left: 20px;
+  margin-top: 2px;
 }
 
 li {
@@ -52,4 +57,8 @@ li {
 
 .low-nav {
   background-color: #ed1b2e;
+}
+
+.test {
+  height: 5000px;
 }

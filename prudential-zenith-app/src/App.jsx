@@ -7,7 +7,7 @@ import { CiCreditCard1 } from "react-icons/ci";
 export default function NavBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-light row">
+      <nav class="navbar navbar-expand-lg bg-body-light row txt">
         <div className="col-1"></div>
         <div class="container col-10">
           <button
@@ -45,16 +45,18 @@ export default function NavBar() {
 
       <div class=" row">
         <div class="col-1"></div>
-        <ul class="col-10  d-flex justify-content-around  pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
+        <div class=" navbar col-10  d-flex justify-content-around  pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
           <li>Life stimulator</li>
           <li>Buy a policy</li>
           <li>Make a claim</li>
           <li>Talk to an Adviser</li>
           <li>About PZL</li>
           <li>Readers digest</li>
-        </ul>
+        </div>
         <div class="col-1"></div>
       </div>
+
+      <div className="test"></div>
     </>
   );
 }
