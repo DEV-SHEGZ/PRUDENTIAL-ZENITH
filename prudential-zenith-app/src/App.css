@@ -53,10 +53,13 @@ button {
 li {
   list-style: none;
   color: white;
+  margin: 0px 10px 0px 10px;
 }
 
 .low-nav {
   background-color: #ed1b2e;
+  display: flex;
+  justify-content: center;
 }
 
 .test {

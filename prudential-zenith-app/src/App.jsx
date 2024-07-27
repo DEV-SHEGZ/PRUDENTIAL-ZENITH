@@ -45,7 +45,7 @@ export default function NavBar() {
 
       <div class=" row">
         <div class="col-1"></div>
-        <div class=" navbar col-10  d-flex justify-content-around  pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
+        <div class=" navbar col-10   pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
           <li>Life stimulator</li>
           <li>Buy a policy</li>
           <li>Make a claim</li>
