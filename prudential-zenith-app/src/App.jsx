@@ -67,7 +67,7 @@ export default function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Action
+                Life Simulator
               </button>
               <ul class="dropdown-menu">
                 <li>
@@ -102,7 +102,7 @@ export default function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Action
+                Buy a policy
               </button>
               <ul class="dropdown-menu">
                 <li>
@@ -137,7 +137,7 @@ export default function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Action
+                Buy a policy
               </button>
               <ul class="dropdown-menu">
                 <li>
@@ -172,7 +172,7 @@ export default function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Action
+                Make a claim
               </button>
               <ul class="dropdown-menu">
                 <li>
@@ -207,7 +207,7 @@ export default function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Action
+                Talk to an adviser
               </button>
               <ul class="dropdown-menu">
                 <li>
