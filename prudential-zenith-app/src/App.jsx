@@ -7,7 +7,7 @@ import { CiCreditCard1 } from "react-icons/ci";
 export default function NavBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg container-fluid nv-hd">
         <div class="container">
           <img class="image" src={img} alt="" />
           <div class="dissapear">
@@ -16,7 +16,7 @@ export default function NavBar() {
               <TiMessages className="msg" />
               <div class="d-flex align-items-center ">
                 <CiCreditCard1 className="crd" />
-                Online Payments
+                <div className="txt">Online Payments</div>
                 <div class="d-flex " className="click">
                   <a class="indv" href="">
                     Individual
@@ -59,16 +59,16 @@ export default function NavBar() {
           ></button>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <ul class="navbar-nav justify-content-end flex-grow-2 pe-3">
             <div class="btn-group">
-              <button
+              <div
                 type="button"
-                class="btn btn-danger dropdown-toggle"
+                class=" container-fluid  dropdown-toggle btn-chng"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Life Simulator
-              </button>
+              </div>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
@@ -96,14 +96,14 @@ export default function NavBar() {
               </ul>
             </div>
             <div class="btn-group">
-              <button
+              <div
                 type="button"
-                class="btn btn-danger dropdown-toggle"
+                class="container-fluid  dropdown-toggle btn-chng"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Buy a policy
-              </button>
+              </div>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
@@ -131,14 +131,14 @@ export default function NavBar() {
               </ul>
             </div>
             <div class="btn-group">
-              <button
+              <div
                 type="button"
-                class="btn btn-danger dropdown-toggle"
+                class="container-fluid  dropdown-toggle btn-chng"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Buy a policy
-              </button>
+              </div>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
@@ -166,14 +166,14 @@ export default function NavBar() {
               </ul>
             </div>
             <div class="btn-group">
-              <button
+              <div
                 type="button"
-                class="btn btn-danger dropdown-toggle"
+                class="container-fluid  dropdown-toggle btn-chng"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Make a claim
-              </button>
+              </div>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
@@ -201,14 +201,14 @@ export default function NavBar() {
               </ul>
             </div>
             <div class="btn-group">
-              <button
+              <div
                 type="button"
-                class="btn btn-danger dropdown-toggle"
+                class="container-fluid  dropdown-toggle btn-chng"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Talk to an adviser
-              </button>
+              </div>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
@@ -241,7 +241,7 @@ export default function NavBar() {
 
       <div class="dissapear row">
         <div class="col-1"></div>
-        <div class=" navbar col-10  d-flex justify-content-evenly  ms-2  pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
+        <div class=" navbar col-10    ms-2  pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
           <li>Life stimulator</li>
           <li>Buy a policy</li>
           <li>Make a claim</li>
