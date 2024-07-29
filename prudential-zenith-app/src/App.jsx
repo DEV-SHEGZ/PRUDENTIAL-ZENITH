@@ -21,7 +21,9 @@ export default function NavBar() {
                   <a class="indv" href="">
                     Individual
                   </a>
-                  <a href="co-p">Cooperate</a>
+                  <a class="co-p" href="">
+                    Cooperate
+                  </a>
                 </div>
                 <button>Login</button>
               </div>
@@ -49,7 +51,7 @@ export default function NavBar() {
       >
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-            Offcanvas
+            <img src={img} alt="" />
           </h5>
           <button
             type="button"
