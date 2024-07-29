@@ -7,7 +7,7 @@ import { CiCreditCard1 } from "react-icons/ci";
 export default function NavBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg container-fluid nv-hd">
+      <nav class="navbar navbar-expand-lg container-fluid nv-hd ">
         <div class="container">
           <img class="image" src={img} alt="" />
           <div class="dissapear">
@@ -241,7 +241,7 @@ export default function NavBar() {
         </div>
       </div>
 
-      <div class="dissapear row">
+      <div class="dissapear row hgh-nav">
         <div class="col-1"></div>
         <div class=" navbar col-10    ms-2  pt-4 pb-4 mt-3 rounded-start rounded-end low-nav">
           <li>Life stimulator</li>
